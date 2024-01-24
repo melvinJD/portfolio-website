@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Image from "./placefiller.png";
 
 export const links = [
   {
@@ -35,52 +33,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Applied for School Of Code Bootcamp & Started Cyber Security Degree",
+    location: "Birmingham & Milton Keynes",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After working in Pharmacy for ten years, I wanted to start a new challenge. In 2022 I applied for the School of Code Bootcamp, submitted a video, attended their 6 week pre bootcamp and was selected from thousands of applicants to take part!",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Rutland, UK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Now I build and develop applications to develop my coding and UI skills .",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "The Reading Room",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A Full Stack App, designed for children, to help form the habit of reading. Helps reduce screen time, and develop reading comprehension.",
+    tags: [ "Next.js", "Chakraka UI", "Netlify", "Supabase"],
+    imageUrl: { src: "/the reading room.png", width: 100, height: 100 },
   },
   {
-    title: "rmtDev",
+    title: "All Saints Hair - Website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A website for Oakham & Stamford All Saint's Hairdressing.",
+    tags: ["React", "HTML", "SquareSpace", "Tailwind", "CSS"],
+    imageUrl: { src: "/placefiller.png", width: 100, height: 100 },
   },
   {
-    title: "Word Analytics",
+    title: "Demi Wine",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Full Stack Wine Recommender.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: { src: "/placefiller.png", width: 100, height: 100 },
   },
 ] as const;
 
@@ -93,15 +84,9 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Tailwind",,
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
