@@ -57,7 +57,7 @@ export const projectsData = [
     description:
       "A Full Stack App, designed for children, to help form the habit of reading. Helps reduce screen time, and develop reading comprehension.",
     tags: [ "Next.js", "Chakraka UI", "Netlify", "Supabase"],
-    imageUrl: { src: "/the reading room.png", width: 100, height: 100 },
+    imageUrl: { src: "/the_reading_room.png", width: 100, height: 100 },
   },
   {
     title: "All Saints Hair - Website",
