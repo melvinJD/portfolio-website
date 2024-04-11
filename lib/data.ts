@@ -63,15 +63,15 @@ export const projectsData = [
     title: "All Saints Hair - Website",
     description:
       "A website for Oakham & Stamford All Saint's Hairdressing.",
-    tags: ["React", "HTML", "SquareSpace", "Tailwind", "CSS"],
+    tags: ["React", "HTML", "SquareSpace", "Tailwind", "CSS", "Framer"],
     imageUrl: { src: "/placefiller.png", width: 100, height: 100 },
   },
   {
-    title: "Demi Wine",
+    title: ".Milk",
     description:
-      "Full Stack Wine Recommender.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: { src: "/placefiller.png", width: 100, height: 100 },
+      "A UI/UX Design Concept, for people to order direct from dairy farms to have milk delivered.",
+    tags: ["Figma", "UI", "UX", "HTML", "CSS"],
+    imageUrl: { src: "/.milk.png", width: 100, height: 100 },
   },
 ] as const;
 
@@ -89,4 +89,6 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Framer Motion",
+  "Framer",
+  "UI/UX"
 ] as const;
