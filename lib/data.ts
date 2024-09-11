@@ -69,7 +69,7 @@ export const projectsData = [
   {
     title: ".Milk",
     description:
-      "A UI/UX Design Concept, for people to order direct from dairy farms to have milk delivered.
+      "A UI/UX Design Concept, for people to order direct from dairy farms to have milk delivered.",
       "Click to view Figma Prototype",
       "https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1",
     tags: ["Figma", "UI", "UX", "HTML", "CSS"],
