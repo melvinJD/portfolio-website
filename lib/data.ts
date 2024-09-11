@@ -41,10 +41,10 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Front-End Developer",
+    title: "Freelance digital artist.",
     location: "Rutland, UK",
     description:
-      "Now I build and develop applications to develop my coding and UI skills .",
+      "Now I build and develop applications to develop my coding and UI skills, 3D projects and prints .",
     icon: React.createElement(CgWorkAlt),
     date: "2024",
   },
@@ -69,7 +69,9 @@ export const projectsData = [
   {
     title: ".Milk",
     description:
-      "A UI/UX Design Concept, for people to order direct from dairy farms to have milk delivered.",
+      "A UI/UX Design Concept, for people to order direct from dairy farms to have milk delivered.
+      "Click to view Figma Prototype",
+      "https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1",
     tags: ["Figma", "UI", "UX", "HTML", "CSS"],
     imageUrl: { src: "/.milk.png", width: 100, height: 100 },
   },
