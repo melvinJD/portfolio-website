@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { url } from "inspector";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -48,16 +49,14 @@ export default function Project({
           </ul>
         </div>
         <div>
-        {link && (
-            <a
-              href={"https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-            >
-              View Project
-            </a>
-          )}
+        <a
+          href={"https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          View Project
+        </a>
         </div>
         <Image
           src={imageUrl}
