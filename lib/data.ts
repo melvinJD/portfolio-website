@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Image from "./placefiller.png";
+import { url } from "inspector";
 
 export const links = [
   {
@@ -70,7 +71,7 @@ export const projectsData = [
     title: ".Milk",
     description:
       "A UI/UX Design Concept, for people to order direct from dairy farms to have milk delivered.",
-    link: "https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1",
+    url: "https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1",
     tags: ["Figma", "UI", "UX", "HTML", "CSS"],
     imageUrl: { src: "/.milk.png", width: 100, height: 100 },
   },
