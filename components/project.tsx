@@ -50,11 +50,11 @@ export default function Project({
         </div>
         <div>
         <a
-          href={"https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
+    href="https://www.figma.com/proto/WsIedCzmrF3Z5OjfamY322/Task-Flow?node-id=0-1&t=8usgqDu8MnIURY7x-1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:text-blue-700 font-bold"
+  >
           View Project
         </a>
         </div>
